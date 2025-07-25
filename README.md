@@ -67,8 +67,3 @@ curl -v http://localhost:4221/echo/hello
 curl -v --data "abc" -H "Content-Type: application/octet-stream" http://localhost:4221/files/sample.txt
 
 curl -v -H "Accept-Encoding: gzip" http://localhost:4221/echo/compressme
-
-
-
-
-  
