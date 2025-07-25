@@ -55,11 +55,4 @@ A lightweight HTTP/1.1 server written in Python from scratch. This project demon
 - Uses standard library only: socket, gzip, threading, os
 - Multi-threaded server for handling concurrent client connections
 
-## Project Structure
-
-├── http-server/
-   ├── main.py             # Entry point
-   ├── server.py           # Starts socket server and threads
-   ├── handler.py          # Request processing logic
-   ├── response.py         # Response constructors           
-   └── README.md       
+  
