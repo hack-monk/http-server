@@ -58,8 +58,16 @@ A lightweight HTTP/1.1 server written in Python from scratch. This project demon
 ---
 
 ## Testing
--- You can use curl or tools like Postman for testing:
-'''bash
+
+You can use `curl` or tools like Postman for testing:
+
+```bash
+curl -v http://localhost:4221/echo/hello
+
+curl -v --data "abc" -H "Content-Type: application/octet-stream" http://localhost:4221/files/sample.txt
+
+curl -v -H "Accept-Encoding: gzip" http://localhost:4221/echo/compressme
+
 
 curl -v http://localhost:4221/echo/hello
 curl -v --data "abc" -H "Content-Type: application/octet-stream" http://localhost:4221/files/sample.txt
